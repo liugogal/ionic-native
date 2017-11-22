@@ -1,5 +1,5 @@
-import { Plugin, Cordova, IonicNativePlugin } from '@ionic-native/core';
-import { Injectable } from '@angular/core';
+import {Plugin, Cordova, IonicNativePlugin} from '@ionic-native/core';
+import {Injectable} from '@angular/core';
 
 /**
  * @name startApp
@@ -26,7 +26,7 @@ export class StartApp extends IonicNativePlugin {
         successIndex: 3,
         errorIndex: 4
     })
-    set(params: any, extra: any, command: string= 'start'): Promise<any> {
+    set(params: any, extra: any, command: string = 'start'): Promise<any> {
         return;
     }
 

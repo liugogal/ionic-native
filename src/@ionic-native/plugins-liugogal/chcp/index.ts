@@ -10,8 +10,8 @@
  * - Remove this note
  *
  */
-import { Plugin, Cordova, IonicNativePlugin } from '@ionic-native/core';
-import { Injectable } from '@angular/core';
+import {Plugin, Cordova, IonicNativePlugin} from '@ionic-native/core';
+import {Injectable} from '@angular/core';
 
 /**
  * @name Chcp

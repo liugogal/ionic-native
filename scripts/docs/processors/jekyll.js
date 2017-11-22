@@ -24,7 +24,7 @@ module.exports = function jekyll(renderDocsProcessor) {
           .replace('content/', '');
         // add trailing slash to plugin pages
         if(!doc.URL.endsWith("/") && !doc.URL.endsWith(".html")) {
-          doc.URL = doc.URL+'/';
+          doc.URL = doc.URL+'/'; 
         }
       });
 

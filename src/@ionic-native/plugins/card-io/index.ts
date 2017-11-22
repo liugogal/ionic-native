@@ -152,7 +152,7 @@ export interface CardIOResponse {
  *       if(res){
  *         let options = {
  *           requireExpiry: true,
- *           requireCCV: false,
+ *           requireCVV: false,
  *           requirePostalCode: false
  *         };
  *         CardIO.scan(options);

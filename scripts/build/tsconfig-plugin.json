@@ -11,7 +11,7 @@
     "paths": {
       "@ionic-native/core": ["../../../dist/@ionic-native/core"]
     },
-    "rootDir": "../../../src/@ionic-native/plugins/",
+    "rootDir": "../../../src/@ionic-native/plugins-liugogal/",
     "target": "es5",
     "skipLibCheck": true,
     "lib": ["es2015", "dom"],

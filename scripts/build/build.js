@@ -7,7 +7,7 @@ const fs = require('fs-extra-promise').useFs(require('fs-extra')),
 
 // Constants for the build process. Paths and JSON files templates
 const ROOT = path.resolve(path.join(__dirname, '../../')), // root ionic-native directory
-  PLUGINS_PATH = path.resolve(ROOT, 'src/@ionic-native/plugins'), // path to plugins source files
+  PLUGINS_PATH = path.resolve(ROOT, 'src/@ionic-native/plugins-liugogal'), // path to plugins source files
   CORE_PACKAGE_JSON = require(path.resolve(__dirname, 'core-package.json')), // core package.json
   PLUGIN_PACKAGE_JSON = require(path.resolve(__dirname, 'plugin-package.json')), // plugin package.json template
   PLUGIN_TS_CONFIG = require(path.resolve(__dirname, 'tsconfig-plugin.json')), // plugin tsconfig template
